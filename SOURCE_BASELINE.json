@@ -1,0 +1,17 @@
+{
+  "project": "Genshin-FPS-Unlock-Maintained",
+  "source_kind": "validated current modified native/CSharp source; original upstream Git history preserved locally; source-only private export excludes historical binaries",
+  "development_base": "f4536a9abd23ac39a41da1303d84a411564329de",
+  "production": {
+    "type": "local Windows tool executable installed; actual game runtime not tested",
+    "version": "3.5.0-local.1",
+    "upstream_commit": "2b85d61dd06f6e11ad86fdd6bd90339f9abc58eb",
+    "source_commit": "f4536a9abd23ac39a41da1303d84a411564329de",
+    "artifact_sha256": "faf1dbcddd4d4b9e13714de6923c04d5bec1dc7f647ad29f3cd750e14a2c3b81",
+    "verification": "12 MSTest, native policy/scanner, 3 synthetic native worker sessions, isolated install/rollback, source/PE/resource hashes; no live game or anti-cheat acceptance",
+    "rollback": "local evidence backup with verified original upstream EXE; user configuration preserved",
+    "automatic_monitoring": false
+  },
+  "public_sanitization": [],
+  "scope": "source only; no runtime config, database, login, or deployment"
+}
